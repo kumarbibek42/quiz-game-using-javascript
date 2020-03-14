@@ -1,0 +1,28 @@
+{
+  "name": "quiz-game-using-javascript",
+  "version": "1.0.0",
+  "description": "Simple Quiz game created with Javascript",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kumarbibek42/quiz-game-using-javascript.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "",
+  "bugs": {
+    "url": "https://github.com/kumarbibek42/quiz-game-using-javascript/issues"
+  },
+  "homepage": "https://github.com/kumarbibek42/quiz-game-using-javascript#readme",
+  "devDependencies": {
+    "nodemon": "^2.0.2"
+  },
+  "dependencies": {
+    "csv-parser": "^2.3.2",
+    "lodash": "^4.17.15"
+  }
+}
