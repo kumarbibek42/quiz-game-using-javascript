@@ -1,0 +1,29 @@
+{
+  "extends": "strongloop",
+  "rules": {
+    "max-len": [2, 120, 8],
+    "eqeqeq": "off",
+    "comma-spacing": "error",
+    "no-console": "error",
+    "no-debugger": "error",
+    "no-dupe-args": "error",
+    "no-extra-parens": "error",
+    "no-extra-semi": "error",
+    "no-irregular-whitespace": "error",
+    "no-template-curly-in-string": "error",
+    "no-unreachable": "error",
+    "block-scoped-var": "error",
+    "curly": "error",
+    "no-unused-vars": "error",
+    "array-bracket-spacing": "error",
+    "block-spacing": "error",
+    "brace-style": "error",
+    "no-multiple-empty-lines": "error"
+  },
+  "parserOptions": {
+    "ecmaVersion": 2017
+  },
+  "env": {
+    "es6": true
+  }
+}
