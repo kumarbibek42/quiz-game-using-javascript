@@ -1,9 +1,11 @@
 const csv = require('csv-parser');
 const fs = require('fs');
+const path = require('path');
 const questionsLoader = require('./question-loader');
 const questionsData = [];
+const filePath = path.resolve('./questions/questions.csv');
 const quizStarter = function() {
-    fs.createReadStream(__dirname+ '../../questions/questions.csv')
+    fs.createReadStream(filePath)
 	.pipe(csv())
 	.on('data', (row) => {
 		questionsData.push(row);
